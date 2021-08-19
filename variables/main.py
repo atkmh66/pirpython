@@ -106,7 +106,7 @@ def FunctionName():
 # The function being called by using its name along with ()
 FunctionName()
 # Printing a local variable
-print(newVar)
+#print(newVar)
 # The following error is produced with due to the fact that 'newVar is a local variable'
 """
 NameError: name 'newVar' is not defined
@@ -133,12 +133,12 @@ print(Five)
 """
 
 # Will produce error because we cant add two variables with one value on the right of assignment operator
-Five + Six = 3+2
+#Five + Six = 3+2
 
 # This will produce an error as well
 # left = what you're giving the value to
 # right = what the value is
-5 = Five
+#5 = Five
 # Trying to print the value of variable 'Five'
 print(Five)
 
